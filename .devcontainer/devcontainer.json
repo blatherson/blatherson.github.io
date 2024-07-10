@@ -12,11 +12,8 @@
  "customizations": {
      "vscode": {
          "extensions": [
-             "GitHub.copilot"
-         ],
-            "extensions": [
-                "ritwickdey.liveserver"
-            ]
+             "GitHub.copilot", "ritwickdey.liveserver"
+         ]
 
      },
      "codespaces": {
