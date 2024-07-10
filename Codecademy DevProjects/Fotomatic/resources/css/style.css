@@ -5,58 +5,37 @@ html {
   font-size: 16px;
 }
 
-
-
-.main-content {
-  position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
-}
-
-.center {
-  text-align: center;
-}
-
-.button {
-  border-radius: 4px;
-  background-color: #4a4a4a;
-  color: white;
-}
-
-.image-container {
-  overflow: hidden;
-}
-
-.image-container img {
-  display: block;
-}
-
-@media only screen and (max-width: 760px) {
-  .main-content {
-    top: 2.5625rem;
-  }
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /* Header */
 
 header {
   position: fixed;
+  height: 5.3123rem;
   width: 100%;
-  border-bottom: solid 1px #c6c1c1;
-  background-color: white;
 }
 
 header .content {
   display: flex;
   align-items: center;
-  padding: 1.875rem;
+  height: 100%;
 }
 
 header .logo {
   flex: 1;
+  font-family: "Roboto Mono Regular", monospace;
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  text-decoration: none;
+  padding-left: 1.875rem;
 }
 
 header nav ul {
   display: flex;
+  list-style-type: none;
 }
 
 nav li {
@@ -68,11 +47,14 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  text-decoration: none;
 }
 
 header .icon {
-  width: 1rem;
+  width: 1.2rem;
   padding-left: .75rem;
+  padding-right: 1.875rem;
+  vertical-align: middle;
 }
 
 header .mobile {
@@ -112,12 +94,51 @@ header .mobile {
   }
 }
 
+
+.main-content {
+  position: relative;
+  top: 5.3125rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+}
+
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
+
+
 /* Sign Up Section */
 
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  height: 43.5rem;
+  width: 100%;
+}
+
+.banner {
+  background-image: url("../images/banner-landingpage.jpg");
+  background-size: cover;
+  background-position: center;
   height: 43.5rem;
 }
 
@@ -126,6 +147,7 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin: 10.625rem 0 10.625rem 6.25rem;
 }
 
 #sign-up-cta .content {
@@ -156,6 +178,7 @@ header .mobile {
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
+  margin: 0;
 }
 
 #sign-up-cta .button {
