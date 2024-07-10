@@ -13,7 +13,11 @@
      "vscode": {
          "extensions": [
              "GitHub.copilot"
-         ]
+         ],
+            "extensions": [
+                "ritwickdey.liveserver"
+            ]
+
      },
      "codespaces": {
          "openFiles": [
