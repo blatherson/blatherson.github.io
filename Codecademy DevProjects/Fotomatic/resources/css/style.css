@@ -16,6 +16,8 @@ header {
   position: fixed;
   height: 5.3123rem;
   width: 100%;
+  z-index: 5;
+  background-color: white;
 }
 
 header .content {
@@ -139,7 +141,6 @@ header .mobile {
   background-image: url("../images/banner-landingpage.jpg");
   background-size: cover;
   background-position: center;
-  height: 43.5rem;
 }
 
 #sign-up-cta {
@@ -246,6 +247,7 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+
 }
 
 .feature .image-container {
@@ -319,6 +321,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
