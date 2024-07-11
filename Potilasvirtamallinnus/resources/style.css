@@ -73,6 +73,8 @@ button:hover {
 
 footer {
     font-family: Archivo, sans-serif;
+    display: flex;
+    justify-content: center;
     grid-column: 1 / -1;
     background-color: #f0f0f0;
     padding: 10px;
