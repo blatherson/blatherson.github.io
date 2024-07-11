@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./resources/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
     <title>Potilasvirtamallinnus</title>
 </head>
-<body>
-    <header>
-            <h1>Header</h1>
-            <h2>Subheader</h2>
-        <nav>
-            <ul>
-                <li><a href="#">Etusivu</a></li>
-                <li><a href="#">Potilasvirtamallinnus</a></li>
-                <li><a href="#">Lisätietoja ja yhteystiedot</a></li>
-            </ul>
-        </nav>
+<body class = "grid">
+    <header class = "header">
+        <div class="headercontent"> 
+            <h1>Potilasvirtamallinnus</h1>
+            <h2>Hoitovalikoiman resursoinnin mallinnustyökalu sote-esihenkilöille</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Etusivu</a></li>
+                    <li><a href="#">Potilasvirtamallinnus</a></li>
+                    <li><a href="#">Lisätietoja ja yhteystiedot</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main> 
         <section>
-            <article>
+            <article class = "sivupalkki">
                 <header>
                     <h1>Sivupalkki</h1>
                 </header>
@@ -38,20 +44,18 @@
         </section>
         <aside>
             <section>
-                <h1>Links</h1>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                </ul>
+                <button>Button 1</button>
+                <button>Button 2</button>
+                <button>Button 3</button>
             </section>
-            <figure>
-                <img width="85" height="85" 
-                    src="###" 
-                    alt="TE-logo" />
-                <figcaption>Tähän tulee TE-logo</figcaption>
-            </figure>
+
         </aside>
     </main>
-    <footer>Footer</footer>
+    <footer>
+        <figure>
+            <img class="hankelogo" src="./resources/images/terapiat_etulinjaan_logo_blue_rgb.png" 
+                alt="Terapiat etulinjaan-logo" />
+        </figure>
+    </footer>
 </body>
 </html>
