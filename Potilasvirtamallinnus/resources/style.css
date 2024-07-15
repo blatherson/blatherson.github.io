@@ -1,5 +1,14 @@
 /* General */
 
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
 body {
     display: grid;
     grid-template-columns: 2fr 3fr 3fr 3fr 2fr;
@@ -13,7 +22,7 @@ h1, h2 {
 
 /* Header */
 
-.header {
+header {
     display: inline-flex;
     justify-content: center;
     font-family: "Georgia regular", 'Times New Roman', Times, serif;
